@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&random=false&width=1100&height=70&lines=React+Introduction+Page+%2B+Vite,+TS+and+React)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&random=false&width=1100&height=70&lines=React+Introduction+%2B+Vite,+TS,+SCSS)](https://git.io/typing-svg)
 
 <div align="center">
     <p>Hello, this is my <strong>first</strong> project about react introduction, which includes:</p>
@@ -8,19 +8,19 @@
     <a href='https://www.w3schools.com/react/react_intro.asp' title="React">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="42" width="42" alt="react logo"  />
     </a>
-    <a href='https://www.w3schools.com/css/css_intro.asp' title="CSS3" >
-        <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="42" width="42" alt="css3 logo"  />
+        <a href='https://www.w3schools.com/sass/sass_intro.php' title="Sass" >
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="42" width="42" alt="sass logo"  />
     </a>
     <a href='https://vitejs.dev/' title="Vite">
         <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" height="42" width="42" alt="git logo"  />
     </a>
 </div>
 
-## Boring, but important information:
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project serves as an introduction to React, utilizing Vite for faster development, TypeScript for type checking, and SCSS for styling.
 
-Currently, two official plugins are available:
+### Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
@@ -47,31 +47,41 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
+## To load this project locally, follow these steps:
 
+### First step: Check for `node`, `pnpm` and `sass`
 
-## To set up this project:
+- To check it, run the following commands in your bash terminal: `node -v`, `pnpm -v`, `sass --version`
 
-If you want to load this project locally, follow these steps:
-
-### First step: Check for `node` and `pnpm`
-
-- To check, run the following commands in your terminal: `node -v` and `pnpm -v`
   - If you don't have `node` on your device, install it [here](https://nodejs.org/en)
-  - If you don't have `pnpm`, run this command in your terminal: `npm install -g pnpm`
 
-### Second step: Clone this repository
+  - If you don't have `pnpm`, run this command in your terminal: `npm install -D pnpm`
 
-Run `https://github.com/baidikov-roman-mi/anime-sound-calculator` 
+  - If you don't have `sass`, run this command in your terminal: `npm install -D sass`
 
-And then `cd anime-sound-calculator`
+> If you want to install it globably, just change "-D" into "-g". You can see more info on [pnpm documentation](https://pnpm.io/cli/install) about pnpm flags
+
+### Second step: Clone this repository using this commands :
+
+```
+git clone https://github.com/baidikov-roman-mi/react-page
+cd react-page
+```
+
+> The cd command is necessary only if your current folder is not empty.
+
+Otherwise, just add "." in the end of `git clone`, and the project will be cloned iside of the folder you are in:
+
+```
+git clone https://github.com/baidikov-roman-mi/react-page .
+```
 
 ### Third step: Local setup
 
-Run `pnpm install` to install project dependencies
+Run `pnpm install` to install dependencies.
 
-### And finally
-
-Start the development server by running `pnpm run serve`. You'll get a message inside the terminal: 
+And finally start the development server by running `pnpm run serve`. You'll get a message inside the terminal:
 
 **Server running at http://localhost:5173/**
 
+This means that you have successfully set up the project and you are free for coding.
