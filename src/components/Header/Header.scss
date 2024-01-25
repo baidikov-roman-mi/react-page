@@ -1,0 +1,37 @@
+@use "sass:map";
+$color: #8964b0;
+$font-family: "Roboto Condensed", sans-serif;
+$gradient: linear-gradient(40deg, #ea00ff, #ea00ff, #03d5ff, #03d5ff);
+$rem-values: (
+  "1.25": 1.25rem,
+  "2": 2rem,
+  "5": 5rem,
+  "10": 10rem,
+);
+
+img {
+  max-width: 100%;
+}
+
+header {
+  text-align: center;
+  margin: map.get($rem-values, "2") 0;
+  img {
+    width: map.get($rem-values, "10");
+  }
+  h1 {
+    margin: 0;
+    font-family: $font-family;
+    font-size: map.get($rem-values, "5");
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  }
+  p {
+    margin: 0;
+    font-size: map.get($rem-values, "1.25");
+    color: $color;
+    font-family: $font-family;
+  }
+}

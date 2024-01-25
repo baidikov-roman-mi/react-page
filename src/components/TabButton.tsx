@@ -1,4 +1,4 @@
-import "./TabButton.css";
+import "./TabButton.scss";
 
 interface Props {
   children: string;

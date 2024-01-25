@@ -1,4 +1,4 @@
-import "./CoreConcept.css";
+import "./CoreConcept.scss";
 
 interface Props {
   image: string;

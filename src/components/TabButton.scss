@@ -1,0 +1,54 @@
+@use "sass:map";
+$color: #a18aba, #ebe7ef;
+$font-family: "Roboto Condensed", sans-serif;
+$background-color: transparent, #1b082f, #7925d3, #2f1d43;
+$rem-values: (
+  "0.5": 0.5rem,
+  "1": 1rem,
+  "3": 3rem,
+);
+
+#examples {
+  margin: map.get($rem-values, "3") auto;
+  h2 {
+    text-align: left;
+  }
+  menu {
+    margin: map.get($rem-values, "1") 0;
+    padding: 0;
+    display: flex;
+    gap: map.get($rem-values, "0.5");
+    list-style: none;
+    button {
+      padding: map.get($rem-values, "0.5") map.get($rem-values, "1");
+      border: none;
+      border-radius: 5px;
+      background-color: nth($background-color, 1);
+      color: nth($color, 1);
+      font-family: $font-family;
+      font-size: map.get($rem-values, "1");
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: nth($background-color, 2);
+        color: nth($color, 2);
+      }
+    }
+    button.active {
+      background-color: nth($background-color, 3);
+      color: nth($color, 2);
+    }
+  }
+}
+#tab-content {
+  padding: map.get($rem-values, "1");
+  border-radius: 5px;
+  background-color: nth($background-color, 4);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  h3 {
+    margin: 0;
+  }
+  code {
+    font-size: map.get($rem-values, "1");
+  }
+}
