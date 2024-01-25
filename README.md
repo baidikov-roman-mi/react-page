@@ -64,8 +64,8 @@ Here is the [link to the CodeSandbox preview](https://codesandbox.io/p/devtool/p
 ### Second step: Clone this repository using this commands :
 
 ```
-git clone https://github.com/baidikov-roman-mi/anime-sound-calculator
-cd anime-sound-calculator
+git clone https://github.com/baidikov-roman-mi/react-page
+cd react-page
 ```
 
 > The cd command is necessary only if your current folder is not empty.
@@ -73,7 +73,7 @@ cd anime-sound-calculator
 Otherwise, just add "." in the end of `git clone`, and the project will be cloned iside of the folder you are in:
 
 ```
-git clone https://github.com/baidikov-roman-mi/anime-sound-calculator .
+git clone https://github.com/baidikov-roman-mi/react-page .
 ```
 
 ### Third step: Local setup
