@@ -49,7 +49,7 @@ export default {
 
 ## Just to see the output
 
-Here is the [link to the CodeSandbox preview](https://codesandbox.io/p/devtool/preview/baidikov-roman-mi/react-page/update-main?task=dev&port=5173&redirect=true&utm_source=gh_app). You can see the result without any local setup.
+Here is the [link to the Netlify preview](https://rococo-bienenstitch-d85c21.netlify.app/). You can see the result without any local setup.
 
 ## To load this project locally, follow these steps:
 
